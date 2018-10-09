@@ -1,0 +1,13 @@
+ <html>
+<table>
+{% for prvek in pole %}
+    <tr>
+    {% for podprvek in prvek %}
+        <td>
+         {{ podprvek }}
+        </td>
+    {% endfor %}
+    </tr>
+{% endfor %}
+</table>
+</html>
